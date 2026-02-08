@@ -10,21 +10,21 @@ func main() {
 	fmt.Println(quote.Go())
 
 	// calculate
-	calculate("10", "5.5")
+	calculate("20", "6")
 
 	// Collections
 	slice := []string{"apple", "banana", "orange"}
 	result := convertToMap(slice)
 	fmt.Printf("%v", result)
 
-    // program flow
-    execCalculateTotal()
+	// program flow
+	execCalculateTotal()
 
-    // calculate-2
-    execCalculate2()
+	// calculate-2
+	execCalculate2()
 
-    // read from JSON 
-    readFromJsonTest()
+	// read from JSON
+	readFromJsonTest()
 
 	testPrintSlice()
 }
